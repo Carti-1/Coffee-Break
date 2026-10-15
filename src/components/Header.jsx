@@ -1,7 +1,7 @@
 export default function Header({ onJoin }) {
   return (
     <header className="wrap nav">
-      <a className="brand" href="#inicio"><span className="brand-mark">↗</span><span>clube do intervalo</span></a>
+      <a className="brand" href="#inicio"><span className="brand-mark">↗</span><span>clube do coffee break</span></a>
       <nav className="navlinks" aria-label="Navegação principal">
         <a href="#agenda">Agenda</a><a href="#sobre">O clube</a><a href="#participar">Participar</a>
         <button className="nav-cta" onClick={onJoin}>Vem com a gente ↗</button>
