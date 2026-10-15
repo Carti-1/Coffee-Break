@@ -67,6 +67,17 @@ export const formConfigs = {
       { label: 'Conte o que aconteceu', name: 'detalhes', type: 'textarea', placeholder: 'Aspecto, cheiro, horário em que percebeu…', required: true },
     ],
   },
+  curso: {
+    title: 'Conte pra gente o que te interessa.',
+    intro: 'Deixe seu contato e escolha o pacote do Curso de Coffee Break que chamou sua atenção.',
+    button: 'Enviar interesse ↗',
+    fields: [
+      { label: 'Nome completo', name: 'nome', placeholder: 'Seu nome', required: true },
+      { label: 'E-mail', name: 'email', type: 'email', placeholder: 'voce@email.com', required: true },
+      { label: 'Pacote de interesse', name: 'pacote', type: 'select', required: true, options: [['', 'Escolha um pacote'], ['iniciante', 'Iniciante'], ['avancado', 'Avançado'], ['profissional', 'Profissional'], ['todos', 'Quero conhecer todos']] },
+      { label: 'O que você gostaria de aprender? (opcional)', name: 'detalhes', type: 'textarea', placeholder: 'Conte um pouco…' },
+    ],
+  },
 }
 
 export const formKickers = {

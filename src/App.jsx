@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
+import PhotoCarousel from './components/PhotoCarousel.jsx'
+import CoursePromo from './components/CoursePromo.jsx'
 import Agenda from './components/Agenda.jsx'
 import About from './components/About.jsx'
 import Participation from './components/Participation.jsx'
@@ -28,7 +30,9 @@ export default function App() {
         <div className="ticker" aria-label="Ideias fresquinhas, gente que soma">
           <div className="wrap ticker-track"><span>☕ ideias fresquinhas</span><span>✳ gente que soma</span><span>☕ ideias fresquinhas</span><span>✳ gente que soma</span><span>☕ ideias fresquinhas</span></div>
         </div>
+        <PhotoCarousel />
         <Agenda ideas={ideas} onSuggest={() => setFormType('ideia')} />
+        <CoursePromo onRegisterInterest={() => setFormType('curso')} />
         <About />
         <Participation onOpenForm={setFormType} />
       </main>
