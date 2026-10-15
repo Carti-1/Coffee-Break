@@ -10,3 +10,14 @@
 
 .course-section{padding:100px 0;background:var(--green);color:#fff}.course-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(35px,8vw,105px);align-items:center}.course-copy{max-width:440px}.course-copy .eyebrow{color:var(--lime);margin-bottom:33px}.course-kicker{color:#d6dfca}.course-copy h2{font:500 clamp(42px,5vw,62px)/1.02 'Playfair Display';letter-spacing:-.045em;margin:19px 0}.course-copy>p:not(.eyebrow){font-size:15px;line-height:1.8;color:#d2d8ce;margin-bottom:25px}.course-button{background:var(--orange);color:#211a14}.course-button:hover{background:#f08b5e}.course-note{display:block;margin-top:14px;font-size:11px;color:#c0c9bc}.course-poster{margin:0;justify-self:center;width:min(100%,490px);padding:12px;background:#f3eee3;box-shadow:0 26px 65px #10161055;transform:rotate(1deg)}.course-poster img{display:block;width:100%;height:auto}.course-poster figcaption{padding:11px 4px 2px;text-align:center;color:var(--green);font-size:9px}
 @media(max-width:700px){.course-section{padding:70px 0}.course-layout{grid-template-columns:1fr;gap:35px}.course-copy{max-width:unset}.course-copy .eyebrow{margin-bottom:24px}.course-copy h2{font-size:46px}.course-poster{width:min(100%,390px)}}
+
+/* Paleta inspirada nos cartazes: espresso, creme e laranja tostado. */
+:root{--cream:#f6eee3;--paper:#fffaf3;--ink:#2b1b13;--muted:#76665a;--green:#3a2117;--lime:#e7bd72;--orange:#e8751a;--line:#e5d7c7;--shadow:0 22px 65px #2b1b1324}
+.nav{border-bottom-color:#dfd1c1}.navlinks{color:#5b483c}.navlinks>a:hover{color:var(--orange)}
+.hero-copy{color:#726256}.arch{border-color:#e0bb78}.art-note{color:#f5e5cb}
+.event-card p{color:#78685b}.event-card.featured p{color:#f0dec4}
+.idea-band,.photo-section{background:#efe2d1}.about-copy{color:#6f5d50}
+.forms-section .section-head>p{color:#e0d3c5}.form-card.alert{background:#f5dfd1}.form-card.alert h3,.form-card.alert button{color:#914523}
+.footer{background:#20140f}.footer small{color:#c3b09e}
+.modal-backdrop{background:#21150fd6}.field label{color:#4c392e}.protocol{background:#f1e3d1}
+.course-copy>p:not(.eyebrow){color:#f0e3d1}.course-note{color:#d4bd9f}
